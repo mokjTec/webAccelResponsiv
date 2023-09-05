@@ -45,6 +45,7 @@ function draw() {
         r = random(0, 256);
         g = random(0, 256);
         b = random(0, 256);
+        accelerationX = 0;
         ned = !ned;
     }
 }
