@@ -49,6 +49,7 @@ function draw() {
         r = random(0, 256);
         g = random(0, 256);
         b = random(0, 256);
+        if(rystet%2 == 0)
         ned = !ned;
         rystet++;
     }
